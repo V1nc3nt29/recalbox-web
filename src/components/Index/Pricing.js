@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import starIcon from '../../assets/images/star-icon.png'
+import DO from '../../assets/images/systems/3do.png'
+
 
 const Pricing = () => {
     return (
@@ -29,36 +31,57 @@ const Pricing = () => {
                                     <span className="title">Année</span>
                                 </th>
                                 <th>
-                                    <span className="title">Rom extensions</span>
+                                    <span className="title">Extensions des Roms</span>
+                                </th>
+                                <th>
+                                    <span className="title">Chemin des Roms</span>
                                 </th>
                                 <th>
                                     <span className="title">Bios</span>
                                 </th>
                                 <th>
-                                    <span className="title">Rom extensions</span>
+                                    <span className="title">Chemin du Bios</span>
                                 </th>
                                 <th>
-                                    <span className="title">Rom extensions</span>
+                                    <span className="title">MD5</span>
                                 </th>
                             </tr>
                         </thead>
 
                         <tbody>
+                            {/* 3DO */}
                             <tr>
-                                <td>Number of features</td>
-                                <td>6</td>
-                                <td>7</td>
-                                <td>8</td>
+                                <td><p align="center"><img src={DO} alt="priceing" /></p></td>
+                                <td>3do</td>
+                                <td>1993</td>
+                                <td>.iso</td>
+                                <td>/share/roms/3do</td>
+                                <td>panafz10.bin</td>
+                                <td>/share/bios</td>
                             </tr>
+                            {/* nintendo */}
                             <tr>
+                                <td><p align="center"><img src={DO} alt="priceing" /></p></td>
+                                <td>Nintendo 3DS</td>
+                                <td>1993</td>
+                                <td>.iso</td>
+                                <td>/share/roms/3do</td>
                                 <td>
-                                    <Link to="#">
-                                        5 GB Bandwidth
-                                    </Link>
+                                    <p>scph101.bin</p>
+                                    <p>scph7001.bin</p>
+                                    <p>scph5501.bin</p>
+                                    <p>scph1001.bin</p>
+
                                 </td>
-                                <td className="item-check"><i className='bx bx-check'></i></td>
-                                <td className="item-check"><i className='bx bx-check'></i></td>
-                                <td className="item-check"><i className='bx bx-check'></i></td>
+                                <td>
+                                    /share/bios
+                                </td>
+                                <td>
+                                    <p>C53CA5908936D412331790F4426C6C33</p>
+                                    <p>6E3735FF4C7DC899EE98981385F6F3D0</p>
+                                    <p>1E68C231D0896B7EADCAD1D7D8E76129</p>
+                                    <p>924E392ED05558FFDB115408C263DCCF</p>
+                                </td>
                             </tr>
                             <tr>
                                 <td>

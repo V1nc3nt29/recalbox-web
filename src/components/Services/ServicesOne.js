@@ -1,4 +1,11 @@
 import React from 'react'
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemHeading,
+    AccordionItemPanel,
+    AccordionItemButton
+} from 'react-accessible-accordion'
 import {Link} from 'gatsby'
 
 const ServicesOne = () => {
@@ -11,13 +18,22 @@ const ServicesOne = () => {
                             <div className="icon">
                                 <i className="flaticon-rocket"></i>
                             </div>
-                            <h3>
-                                <Link to="/service-details">
-                                Startup Applications
-                                </Link>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna adipiscing aliqua.</p>
-
+                        <Accordion>
+                            <AccordionItem>
+                                <AccordionItemHeading>
+                                    <AccordionItemButton>
+                                        <h3>SUPER NNTENDO</h3>
+                                    </AccordionItemButton>
+                                </AccordionItemHeading>
+                                <AccordionItemPanel>
+                                    
+                                    <p>Year: <b>2020</b></p>
+                                    <p>Accepted File Extensions: <b>.cue .ccd .chd .exe .iso .m3u .pbp .toc</b></p>
+                                    <p>Roms folder: <b>/home/pi/RetroPie/roms/psx</b></p>
+                                    <p>Bios Folder: <b>/home/pi/RetroPie/BIOS</b></p>
+                                </AccordionItemPanel>
+                            </AccordionItem>
+                            </Accordion>
                             <Link className="view-details-btn" to="/service-details">
                                 View Details
                             </Link>

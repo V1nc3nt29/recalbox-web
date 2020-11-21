@@ -10,6 +10,7 @@ import TeamMember from "../components/Index/TeamMember"
 /*import Pricing from "../components/Index/Pricing"*/   /*<Pricing />*/
 
 
+
 const Home = () => {
   return (
     <Layout>
