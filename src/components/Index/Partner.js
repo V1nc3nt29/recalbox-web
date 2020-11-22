@@ -9,8 +9,12 @@ import partner6 from '../../assets/images/partner/partner6.png'
 
 const Partner = () => {
     return (
+        
+        
         <div className="partner-area pt-100 pb-70 bg-f1f8fb">
             <div className="container">
+
+            
                 <div className="row align-items-center">
                     <div className="col-lg-2 col-6 col-sm-4 col-md-4">
                         <ReactWOW delay='.1s' animation='fadeInUp'>

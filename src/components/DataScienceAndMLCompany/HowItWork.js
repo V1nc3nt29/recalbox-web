@@ -11,7 +11,7 @@ import rpi1a from '../../assets/images/architecture/recalbox_rpi1a.png'
 import rpi1b from '../../assets/images/architecture/recalbox_rpi1b.png'
 import rpi2b from '../../assets/images/architecture/recalbox_rpi2b.png'
 import rpi3a from '../../assets/images/architecture/recalbox_rpi3a.png'
-import rpi3b from '../../assets/images/architecture/recalbox_rpi3B.png'
+import rpi3b from '../../assets/images/architecture/recalbox_rpi3b.png'
 import rpi4b from '../../assets/images/architecture/recalbox_rpi4b.png'
 import xu4 from '../../assets/images/architecture/recalbox_xu4.png'
 
