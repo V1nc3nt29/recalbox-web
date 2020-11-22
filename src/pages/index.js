@@ -6,7 +6,7 @@ import Banner from "../components/Index/Banner"
 import OurSolutions from "../components/Index/OurSolutions"
 import OurFeatures from "../components/Index/OurFeatures"
 import FunFacts from '../components/SEOAgency/FunFacts'
-import TeamMember from "../components/Index/TeamMember"
+import Partner from "../components/DataScienceAndMLCompany/Partner"
 /*import Pricing from "../components/Index/Pricing"*/   /*<Pricing />*/
 
 
@@ -18,7 +18,7 @@ const Home = () => {
       <Banner />
       <OurSolutions />
       <OurFeatures />
-      <TeamMember />
+      <Partner />
       <FunFacts />
       <Footer />
     </Layout>

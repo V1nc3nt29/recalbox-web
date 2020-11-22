@@ -83,7 +83,7 @@ const MainBanner = () => {
                                 <ReactWOW delay='.1s' animation='fadeInDown'>
                                     <img src={img4} alt="banner" />
                                 </ReactWOW>
-                                <ReactWOW delay='.1s' animation='fadeInUp'>
+                                <ReactWOW  delay='.1s' animation='fadeInDown'>
                                     <img src={img5} alt="banner" />
                                 </ReactWOW>
                                 <ReactWOW delay='.1s' animation='fadeInDown'>
