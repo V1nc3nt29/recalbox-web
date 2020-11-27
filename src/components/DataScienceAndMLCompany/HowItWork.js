@@ -13,6 +13,8 @@ import rpi2b from '../../assets/images/architecture/recalbox_rpi2b.png'
 import rpi3a from '../../assets/images/architecture/recalbox_rpi3a.png'
 import rpi3b from '../../assets/images/architecture/recalbox_rpi3b.png'
 import rpi4b from '../../assets/images/architecture/recalbox_rpi4b.png'
+import rpi400 from '../../assets/images/architecture/recalbox_rpi400.png'
+import odroidgoadvance from '../../assets/images/architecture/recalbox_odroidgoadvance.png'
 import xu4 from '../../assets/images/architecture/recalbox_xu4.png'
 
 import shape1 from '../../assets/images/shape/recalbox-shape1.png'
@@ -124,7 +126,30 @@ const HowItWork = () => {
                             <p></p>
                         </div>
                     </div>
-
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-process-box">
+                        
+                            <div className="image">
+                                <img src={rpi400} alt="banner" />
+                            </div>
+                            <h3>Raspberry Pi 400</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-process-box">
+                        
+                            <div className="image">
+                                <img src={odroidgoadvance} alt="banner" />
+                            </div>
+                            <h3>Odroid Go Advance</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                    <div className="col-lg-4 col-md-6">
+                    <p></p>
+                    </div>
                     <div className="col-lg-4 col-md-6">
                     <p></p>
                     </div>

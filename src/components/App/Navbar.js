@@ -29,6 +29,9 @@ const Navbar = () => {
 
     return (
         <React.Fragment>
+
+            
+
             <div id="navbar" className="navbar-area">
                 <div className="tarn-nav">
                     <div className="container-fluid">
@@ -80,7 +83,7 @@ const Navbar = () => {
 
                                             <li className="nav-item">
                                                 <Link 
-                                                    to="#" 
+                                                    to="/systemes" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -91,7 +94,7 @@ const Navbar = () => {
 
                                             <li className="nav-item">
                                                 <Link 
-                                                    to="https://forum.recalbox.com/" 
+                                                    to="index#partenaires" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"

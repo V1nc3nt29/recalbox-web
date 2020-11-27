@@ -12,7 +12,7 @@ const FunFacts = () => {
                 <div className="section-title">
                     <span className="sub-title">
                     <img src={starIconh2} alt="feature" />
-                    <h2>Recalbox c'est quoi ?</h2>
+                    <h2>La Recalbox en chiffres</h2>
                     </span>
                 
                 </div>

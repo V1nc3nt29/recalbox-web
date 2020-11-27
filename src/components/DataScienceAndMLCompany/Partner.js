@@ -13,7 +13,7 @@ const Partner = () => {
         
         <div className="partner-area pt-100 pb-70 bg-f1f8fb">
             
-            <div className="section-title">
+            <div id="partenaires" className="section-title">
                     <span className="sub-title-black">
                     <img src={starIconh2} alt="feature" />
                     <h2>Nos partenaires</h2>

@@ -13,13 +13,13 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-footer-widget">
-                            
+                           
                         </div>
                     </div>
 
                     <div className="col-lg-2 col-sm-6">
                         <div className="single-footer-widget pl-5">
-                            
+                        <p></p><br/>
                             
                             <ul className="footer-links-list">
                                 <li>
@@ -29,7 +29,7 @@ const Footer = () => {
                                 </li>
                                     <li>
                                     <Link to="/about-us">
-                                        Systemes et compatibilité
+                                        Systemes & compatibilité
                                     </Link>
                                 </li>
                                 <li>
@@ -37,23 +37,14 @@ const Footer = () => {
                                         Themes
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link to="/blog">
-                                        Our Blog
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="/contact">
-                                        Contact
-                                    </Link>
-                                </li>
+                               
                             </ul>
                         </div>
                     </div>
 
                     <div className="col-lg-2 col-sm-6">
                         <div className="single-footer-widget">
-                         
+                        <p></p><br/>
 
                             <ul className="footer-links-list">
                                 <li>
@@ -140,7 +131,7 @@ const Footer = () => {
                 <div className="footer-bottom-area">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">
-                            <p>Copyright @{currentYear} <strong>Rewy</strong> All rights reserved <a target="_blank" href="https://envytheme.com/" rel="noreferrer">EnvyTheme</a></p>
+                            <p>Copyright @{currentYear} <strong>Recalbox</strong></p>
                         </div>
 
                         <div className="col-lg-6 col-md-6">

@@ -32,7 +32,7 @@ const CaseStudySlider = () => {
                 className="case-study-slides owl-carousel owl-theme"
                 {...options}
             > 
-                <div className="single-case-study-item ptb-100">
+                <div id="nouvelles"className="single-case-study-item ptb-100">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12">

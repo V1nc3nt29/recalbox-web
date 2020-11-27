@@ -972,6 +972,18 @@ Navbar Area CSS
   width: 100%;
   height: auto;
   z-index: 999;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.navbar-area-social {
+  position: absolute;
+  background-color: #3b5998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  z-index: 999;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -5200,6 +5212,7 @@ Why Choose Us Area CSS
 }
 
 .why-choose-us-area .row .col-lg-6 {
+  
   padding-left: 0;
   padding-right: 0;
 }
@@ -12001,17 +12014,17 @@ Footer Area CSS
   top: 1.3px;
 }
 
-.footer-bottom-area p a {
-  color: #34495e;
+.footer-bottom-area p a {  /* FOOTER GAUCHE */
+  color: #677481;
   font-weight: 600;
 }
 
 .footer-bottom-area p a:hover {
-  color: #221638;
+  color: #FFFFFF;
 }
 
-.footer-bottom-area p strong {
-  color: #221638;
+.footer-bottom-area p strong { /* FOOTER GAUCHE */
+  color: #677481;
 }
 
 .footer-bottom-area ul {
@@ -12046,13 +12059,13 @@ Footer Area CSS
   background-color: #FFFFFF;
 }
 
-.footer-bottom-area ul li a {
+.footer-bottom-area ul li a { /* LIENS a droite */
   display: block;
-  color: #FFFFFF;
+  color: #677481;
 }
 
 .footer-bottom-area ul li a:hover {
-  color: #34495e;
+  color: #FFFFFF;
 }
 
 .footer-map {
